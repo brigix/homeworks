@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style-text-area.css" />
+  </head>
+  <body>
+    <script src="textArea-script.js"></script>
+    <h2>Auto-Growing <code>&lt;textarea></code></h2>
+
+    <form>
+      <label for="textArea">TextArea:</label>
+      <div class="">
+        <textarea
+          name="textArea"
+          id="textArea"
+          onkeyup="new do_resize(this)"
+          cols="20"
+          rows="5"
+        ></textarea>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  margin: 2rem;
+  font: 1rem/1.4 system-ui, sans-serif;
+}
+
+label {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+textarea {
+  resize: none;
+  padding: 1rem;
+  scroll-margin-right: 2rem;
+}
